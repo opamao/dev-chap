@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://www.vehikl.com/sitemap/sitemap-index.xml
-Host: https://www.vehikl.com

@@ -16,9 +16,6 @@
     <meta data-react-helmet="true" charSet="utf-8" />
     <meta name="generator" content="Gatsby 4.13.1" />
     <style data-href="/styles.fd3a523e1d4a24961b59.css" data-identity="gatsby-global-css">
-        /*
-! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
-*/
         *,
         :after,
         :before {
@@ -1689,7 +1686,8 @@
             display: inline-block;
             vertical-align: top
         }
-    </style><noscript>
+    </style>
+    <noscript>
         <style>
             .gatsby-image-wrapper noscript [data-main-image] {
                 opacity: 1 !important
@@ -1700,7 +1698,9 @@
             }
         </style>
     </noscript>
-    <script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script>
+    <script type="module">
+    const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);
+    </script>
     <title data-react-helmet="true">Vehikl | Contact Us</title>
     <link rel="sitemap" type="application/xml" href="sitemap/sitemap-index.xml" />
     <link rel="preconnect" href="https://www.google-analytics.com" />
@@ -1738,36 +1738,43 @@
         <div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper">
             <div id="body" class="antialiased flex flex-col font-regular min-h-screen ">
                 <header class="bg-gray-900 sticky top-0 z-40 shadow-xl border-b-2 border-gray-800 text-gray-300">
-                    <div class="container mx-auto px-4 max-w-6xl ">
-                        <nav class="flex items-center h-20 font-semibold"><a class="focus:ring mr-auto"
-                                aria-label="Home" href="index.html"><svg xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 931.42 235.11" class="h-10">
+                    <div class="container mx-auto px-4 max-w-6xl">
+                        <nav class="flex items-center h-20 font-semibold">
+                            <a aria-current="page" class="focus:ring mr-auto" aria-label="Home"
+                                href="{{ url('/') }}">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 931.42 235.11" class="h-10">
                                     <path
                                         d="M39.43 235.11C17.32 235.11 0 217.3 0 194.56v-154C0 17.81 17.32 0 39.43 0a39.7 39.7 0 0 1 4.48.25L169.7 14c18.17 2 32.4 19.72 32.4 40.38v126.39c0 20.66-14.23 38.39-32.4 40.37L43.91 234.86a39.7 39.7 0 0 1-4.48.25zm0-215.87c-11.51 0-20.19 9.16-20.19 21.31v154c0 12.15 8.68 21.31 20.19 21.31a21.57 21.57 0 0 0 2.4-.13L167.61 202c8.27-.9 15.25-10.63 15.25-21.25V54.34c0-10.62-7-20.35-15.25-21.25L41.83 19.37a21.7 21.7 0 0 0-2.4-.13z"
-                                        style="fill:#e26700"></path>
+                                        style="fill: #e26700"></path>
                                     <path
                                         d="M154.54 70c-1.28-7.18-6.74-14-14-15.54-6.8-1.4-13.89 2.32-17.07 9.3-3.84 8.42-1.35 19.2 5.73 24.79a2.4 2.4 0 0 1 1 2.38c-.13 1.42-.15 2.87-.29 4.29-.89 8.65-4.63 15.16-11.69 19.08a77.63 77.63 0 0 1-8.86 4.15c-5.52 2.22-11.17 4.26-16.86 6.45-1.14.43-2.23 1-3.44 1.58 0-.49-.06-.82-.06-1.15V75.91A2 2 0 0 1 90.06 74c7.56-5.21 10.21-15.87 6.26-24.9-4.07-9.33-13.86-14.66-22.84-12-7.41 2.22-12 7.59-12.91 16A21.28 21.28 0 0 0 68.92 73a2.67 2.67 0 0 1 1.22 2.37q-.06 42.15 0 84.3a2.64 2.64 0 0 1-1.14 2.41c-7.72 5.82-10.76 16.84-7 25.5 3.83 8.9 13.16 13.17 22 10 7.4-2.63 12.14-8.14 13.73-16.2s-.61-14.71-6.5-19.4c-2-1.56-2.3-3.13-2.2-5.46.24-5.3 2.4-9.2 6.87-11.44 3-1.5 6-3 9.05-4.22 6.84-2.76 13.69-5.13 20-8.74a40.38 40.38 0 0 0 17.74-19.79A56.71 56.71 0 0 0 146.75 92c0-1.08 0-2 1-2.76 5.49-4.04 8.13-11.69 6.79-19.24zM79.73 188.36c-5.26.44-9.6-3.85-9.59-9.53s4.25-10.35 9.49-10.67 9.3 4 9.32 9.45-4.1 10.33-9.22 10.75zm0-121.4c-5.28-.26-9.58-5.07-9.57-10.77s4.27-9.8 9.5-9.44S89 51.92 89 57.41s-4.18 9.81-9.29 9.59zm58.8 15.79c-4.58-.24-8.3-4.67-8.29-9.94s3.77-9.29 8.35-9 8.19 4.68 8.2 9.84-3.73 9.35-8.28 9.1z"
-                                        style="fill:#e26700"></path>
-                                    <path style="fill:#fff"
+                                        style="fill: #e26700"></path>
+                                    <path style="fill: #fff"
                                         d="M299 192.29l-63.34-151h43.74l30.23 84.49q.4 1.33 1.7 6.45t3.34 13.77q1.65-6.91 3.1-12.48t2.16-7.74l30-84.49h43.74l-63.34 151zM393.89 192.29v-151h92.53v33.1H434v26.2h52.42V133H434v25.48h52.4v33.83zM498.06 192.29v-151h41.16V100h54.87V41.27h41.27v151h-41.27v-61.46h-54.87v61.48zM647.34 192.29v-151h41.57v151zM701 192.29v-151h40.75v68.6l47.76-68.6h48l-55.81 73.66 57.64 77.36h-51.41l-46.18-67.77v67.77z">
                                     </path>
-                                    <path style="fill:#fff" d="M839.1 192.29v-151h41.16V157h51.16v35.27z"></path>
-                                </svg></a><a
+                                    <path style="fill: #fff" d="M839.1 192.29v-151h41.16V157h51.16v35.27z"></path>
+                                </svg>
+                            </a>
+                            <a class="after:transition-all uppercase p-2 tracking-wider text-sm transition-all relative mr-2 last-of-type:mr-0 hover:text-brand"
+                                href="{{ url('/') }}">Accueil</a>
+                            <a class="after:transition-all uppercase p-2 tracking-wider text-sm transition-all relative mr-2 last-of-type:mr-0 hover:text-brand"
+                                href="{{ url('comment') }}">Comment nous travaillons</a>
+                            <a class="after:transition-all uppercase p-2 tracking-wider text-sm transition-all relative mr-2 last-of-type:mr-0 hover:text-brand"
+                                href="{{ url('equipe') }}">Équipe</a>
+                            <a aria-current="page"
                                 class="after:transition-all uppercase p-2 tracking-wider text-sm transition-all relative mr-2 last-of-type:mr-0 hover:text-brand"
-                                href="index.html">Home</a><a
-                                class="after:transition-all uppercase p-2 tracking-wider text-sm transition-all relative mr-2 last-of-type:mr-0 hover:text-brand"
-                                href="how-we-work.html">How we work</a><a
-                                class="after:transition-all uppercase p-2 tracking-wider text-sm transition-all relative mr-2 last-of-type:mr-0 hover:text-brand"
-                                href="team.html">Team</a><a
-                                class="after:transition-all uppercase p-2 tracking-wider text-sm transition-all relative mr-2 last-of-type:mr-0 hover:text-brand"
-                                href="jobs.html">We&#x27;re Hiring!</a><a aria-current="page"
+                                href="{{ url('embauche') }}">Nous embauchons!</a>
+                            <a aria-current="page"
                                 class="ml-2 uppercase p-2 px-3 tracking-wider text-sm background-transparent transition-all relative mr-2 last-of-type:mr-0 border border-gray-800 rounded flex items-center hover:border-brand text-white border-brand"
-                                href="contact.html">Contact<svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"
-                                    class="w-4 h-4 ml-2">
+                                href="{{ url('contact') }}">
+                                Contact
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="2" stroke="currentColor" aria-hidden="true" class="w-4 h-4 ml-2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                                </svg></a></nav>
+                                </svg>
+                            </a>
+                        </nav>
                     </div>
                 </header>
                 <main class="flex-1 mb-24 lg:mb-36">
@@ -1809,9 +1816,10 @@
                         <div
                             class="container mx-auto px-4 max-w-6xl flex items-center z-10 relative py-16 lg:min-h-[35vh]">
                             <div class="lg:max-w-[65ch]">
-                                <h1 class="text-4xl lg:text-5xl font-bold mb-6 text-gray-100">Contact us</h1>
-                                <p class="text-xl lg:text-2xl font-medium text-gray-300">Would you like to work with
-                                    Vehikl on your next project? Curious about careers at Vehikl?</p>
+                                <h1 class="text-4xl lg:text-5xl font-bold mb-6 text-gray-100">Contactez-nous</h1>
+                                <p class="text-xl lg:text-2xl font-medium text-gray-300">
+                                    Vous souhaitez travailler avec Dev Chap sur votre prochain projet ? Curieux d'en savoir plus sur les carrières chez Dev Chap ?
+                                </p>
                             </div>
                         </div>
                     </header>
@@ -1820,14 +1828,11 @@
                             <div class="flex-1 mb-12 lg:mb-0 lg:pr-8 lg:border-r lg:border-gray-800">
                                 <h2
                                     class="after:left-0 font-semibold relative after:content[&quot;&quot;] after:h-1 after:rounded-full after:bg-brand after:absolute after:w-12, font-semibold relative after:content[&quot;&quot;] after:h-1 after:rounded-full after:bg-brand after:absolute after:w-12 text-2xl lg:text-3xl mb-8 after:-bottom-3 text-gray-100">
-                                    Get in touch</h2>
-                                <p class="text-base mb-8">We&#x27;d love to talk to you! Get in touch via the contact
-                                    form, or send us an email directly at
-                                    <!-- --> <a href="mailto:go@vehikl.com"
-                                        class="text-brand-dark hover:underline">go@vehikl.com</a> <!-- -->or by phone
-                                    at
-                                    <!-- --> <a class="text-brand-dark hover:underline" href="tel:5197469855">(519)
-                                        746-9855</a>.
+                                    Entrer en contact</h2>
+                                <p class="text-base mb-8">Nous serions ravis de vous parler ! Contactez-nous via le formulaire de contact, ou envoyez-nous un courriel directement à
+                                    <!-- --> <a href="mailto:theodoreyapi@outlook.com"
+                                        class="text-brand-dark hover:underline">theodoreyapi@outlook.com</a> <!-- --> ou par téléphone au
+                                    <!-- --> <a class="text-brand-dark hover:underline" href="tel:0585831647">(225) 05 85 83 16 47</a>.
                                 </p>
                                 <form class="flex flex-col gap-6">
                                     <div><label class="
@@ -1837,7 +1842,7 @@
           uppercase text-xs tracking-wider font-medium block
           after:content-[&quot;*&quot;] after:inline after:ml-1
           false
-          mb-1">Name</span><input
+          mb-1">Nom</span><input
                                                 value="" required=""
                                                 class="text-base text-gray-300 p-4 border shadow-sm bg-gray-800 placeholder:text-gray-500 border-none rounded-lg focus:ring focus:outline-none transition-all block w-full resize-none " /></label>
                                     </div>
@@ -1848,7 +1853,7 @@
           uppercase text-xs tracking-wider font-medium block
           after:content-[&quot;*&quot;] after:inline after:ml-1
           false
-          mb-1">Email</span><input
+          mb-1">E-mail</span><input
                                                 type="email" value="" required=""
                                                 class="text-base text-gray-300 p-4 border shadow-sm bg-gray-800 placeholder:text-gray-500 border-none rounded-lg focus:ring focus:outline-none transition-all block w-full resize-none " /></label>
                                     </div>
@@ -1863,15 +1868,15 @@
                                             <textarea required=""
                                                 class="text-base text-gray-300 p-4 border shadow-sm bg-gray-800 placeholder:text-gray-500 border-none rounded-lg focus:ring focus:outline-none transition-all block w-full resize-none "></textarea>
                                         </label></div><button
-                                        class="w-full lg:w-auto min-w-[125px] rounded-lg bg-gradient-to-t from-brand to-brand-light px-4 py-3 font-semibold inline-flex cursor-pointer justify-center text-white uppercase tracking-wider text-sm transition-all shadow-brand/50 shadow-sm hover:shadow-lg hover:shadow-brand/25 border border-brand-light focus:ring focus:outline-none lg:self-start">Submit</button>
+                                        class="w-full lg:w-auto min-w-[125px] rounded-lg bg-gradient-to-t from-brand to-brand-light px-4 py-3 font-semibold inline-flex cursor-pointer justify-center text-white uppercase tracking-wider text-sm transition-all shadow-brand/50 shadow-sm hover:shadow-lg hover:shadow-brand/25 border border-brand-light focus:ring focus:outline-none lg:self-start">Soumettre</button>
                                 </form>
                             </div>
                             <div class="lg:w-96">
                                 <h2
                                     class="after:left-0 font-semibold relative after:content[&quot;&quot;] after:h-1 after:rounded-full after:bg-brand after:absolute after:w-12, font-semibold relative after:content[&quot;&quot;] after:h-1 after:rounded-full after:bg-brand after:absolute after:w-12 text-2xl lg:text-3xl mb-8 after:-bottom-3 text-gray-100">
-                                    Locations</h2>
+                                    Emplacements</h2>
                                 <div class="flex flex-col gap-4">
-                                    <address
+                                    {{-- <address
                                         class="flex flex-col not-italic border border-gray-800 rounded p-4 text-gray-400">
                                         <span class="mb-1 flex items-center text-gray-300"><span
                                                 class="font-medium">Waterloo</span><a
@@ -1888,24 +1893,8 @@
                                             class="text-base">Waterloo
                                             <!-- -->,
                                             <!-- -->Ontario
-                                        </span><span class="text-base">N2V 2L7</span></address>
-                                    <address
-                                        class="flex flex-col not-italic border border-gray-800 rounded p-4 text-gray-400">
-                                        <span class="mb-1 flex items-center text-gray-300"><span
-                                                class="font-medium">Hamilton</span><a
-                                                href="https://goo.gl/maps/VWBHcC2Vojq" rel="noopener" target="_blank"
-                                                class="text-brand-dark hover:underline ml-auto">Map</a><svg
-                                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="2" stroke="currentColor" aria-hidden="true"
-                                                class="w-5 h-5 ml-1 text-gray-500">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-                                                </path>
-                                            </svg></span><span class="text-base">115 King St E, 3rd Floor</span><span
-                                            class="text-base">Hamilton
-                                            <!-- -->,
-                                            <!-- -->Ontario
-                                        </span><span class="text-base">L8N 1A9</span></address>
+                                        </span><span class="text-base">N2V 2L7</span>
+                                    </address> --}}
                                 </div>
                             </div>
                         </div>

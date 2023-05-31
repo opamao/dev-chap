@@ -16,3 +16,18 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('embauche', function () {
+    return view('jobs');
+});
+Route::get('equipe', function () {
+    return view('team');
+});
+Route::get('comment', function () {
+    return view('how-we-work');
+});
+Route::get('contact', function () {
+    return view('contact');
+});
+Route::get('developer', function () {
+    return view('developer');
+});

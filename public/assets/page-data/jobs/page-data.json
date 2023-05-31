@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-pages-jobs-index-tsx",
-    "path": "/jobs",
-    "result": {"data":{"jobs":{"nodes":[{"title":"Developer","description":"As a new member of our team, you will help build the interfaces, behaviours, architecture, and code quality of premium web and mobile applications. You will follow projects for new and existing clients from start to finish while working closely with those clients as well as your team. At Vehikl, mob programming is a big part of our processes and how we work. You will mob daily with other developers on our team to produce clean code with efficiency and finesse.","location":"Ontario, Canada","url":"/jobs/developer/","id":"6b4c6cf3-6df3-57e7-9c3f-9acf177bf4f2"}]}},"pageContext":{}},
-    "staticQueryHashes": ["1663290709","3953345113","588025762"]}
