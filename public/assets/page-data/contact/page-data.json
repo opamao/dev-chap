@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-contact-tsx",
+    "path": "/contact",
+    "result": {"data":{"locations":{"nodes":[{"city":"Waterloo","id":"04169a46-063c-52f7-bbe6-f3a50f9fecab","mapLink":"https://goo.gl/maps/8MSDeFwd1CM2","postalCode":"N2V 2L7","province":{"long":"Ontario","short":"ON"},"street":"200 Bathurst Drive","country":"Canada"},{"city":"Hamilton","id":"e039cbbb-89f6-59b7-8638-d26dc56e51e5","mapLink":"https://goo.gl/maps/VWBHcC2Vojq","postalCode":"L8N 1A9","province":{"long":"Ontario","short":"ON"},"street":"115 King St E, 3rd Floor","country":"Canada"}]}},"pageContext":{}},
+    "staticQueryHashes": ["1663290709","3953345113","588025762"]}
